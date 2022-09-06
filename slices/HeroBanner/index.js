@@ -30,25 +30,18 @@ const HeroBanner = ({ slice }) => (
         width: "max-content",
       }}
     >
-      <PrismicLink
-        field={slice.primary.button_link}
-        style={{
-          width: "max-content",
-        }}
+      <div
+        className={`${
+          slice.primary.button_variant === "Filled"
+            ? "filled-button"
+            : "outlined-button"
+        }`}
+        style={{ display: "flex", justifyContent: "center" }}
       >
-        <div
-          className={`${
-            slice.primary.button_variant === "Filled"
-              ? "filled-button"
-              : "outlined-button"
-          }`}
-          style={{ display: "flex", justifyContent: "center" }}
-        >
-          <span className="button-label" style={{}}>
-            <PrismicRichText field={slice.primary.button_label} />
-          </span>
-        </div>
-      </PrismicLink>
+        <span className="button-label" style={{}}>
+          <PrismicRichText field={slice.primary.button_label} />
+        </span>
+      </div>
     </div>
     <style jsx>{`
       section {
