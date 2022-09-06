@@ -1,0 +1,19 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "copyright_text": [
+        {
+          "type": "paragraph",
+          "text": "Ex excepteur aliqua cillum laboris velit magna commodo deserunt adipisicing.",
+          "spans": []
+        }
+      ]
+    },
+    "slice_type": "footer_copyright"
+  }
+]

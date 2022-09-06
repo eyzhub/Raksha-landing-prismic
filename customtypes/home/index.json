@@ -1,0 +1,37 @@
+{
+  "id": "home",
+  "label": "home",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "page",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "footer_links": {
+              "type": "SharedSlice"
+            },
+            "hero_banner": {
+              "type": "SharedSlice"
+            },
+            "social_media_icons": {
+              "type": "SharedSlice"
+            },
+            "footer_copyright": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}
