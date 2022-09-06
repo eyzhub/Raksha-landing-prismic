@@ -34,6 +34,7 @@ function terms({ imprint }) {
         section {
           text-align: left;
           font-size: 20px;
+          overscroll-behavior-y: none;
         }
         .header-background {
           height: 45vh;

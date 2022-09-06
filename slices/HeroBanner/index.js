@@ -47,7 +47,7 @@ const HeroBanner = ({ slice }) => (
     <style jsx>{`
       section {
         height: 100vh;
-
+        overscroll-behavior-y: none;
         background-image: url(${slice.primary.background_image.url});
         background-repeat: no-repeat;
         background-size: cover;
