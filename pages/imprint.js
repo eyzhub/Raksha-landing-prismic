@@ -11,22 +11,23 @@ function terms({ imprint }) {
   const slice = imprint.data.slices[0];
   return (
     <section>
-      <div className="body-text">
+      <div>
         <div className="header-background">
           <PrismicRichText field={slice.primary.title} />
         </div>
-
-        {slice?.items?.map(
-          (
-            item,
-            i /* import { PrismicRichText } from '@prismicio/react' */
-          ) => (
-            <div key={`${i + item.subtitle}`} style={{ margin: "0 20px" }}>
-              <PrismicRichText field={item.subtitle} />
-              <PrismicRichText field={item.description} />
-            </div>
-          )
-        )}
+        <div className="body-text">
+          {slice?.items?.map(
+            (
+              item,
+              i /* import { PrismicRichText } from '@prismicio/react' */
+            ) => (
+              <div key={`${i + item.subtitle}`} style={{ margin: "0 20px" }}>
+                <PrismicRichText field={item.subtitle} />
+                <PrismicRichText field={item.description} />
+              </div>
+            )
+          )}
+        </div>
       </div>
 
       <style jsx>{`
@@ -35,7 +36,7 @@ function terms({ imprint }) {
           font-size: 20px;
         }
         .header-background {
-          height: 35vh;
+          height: 45vh;
           width: 100vw;
           text-align: center;
           background-image: url(${slice.primary.background_image.url});
@@ -49,7 +50,9 @@ function terms({ imprint }) {
           font-size: 30px;
         }
         .body-text {
-          width: 80%;
+          width: 60%;
+          margin-left: auto;
+          margin-right: auto;
         }
         .title {
           color: #8592e0;

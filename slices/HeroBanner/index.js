@@ -50,7 +50,7 @@ const HeroBanner = ({ slice }) => (
         background-image: url(${slice.primary.background_image.url});
         background-repeat: no-repeat;
         background-size: cover;
-        background-positiom: center;
+        background-position: center;
         text-align: center;
         display: flex;
         flex-direction: column;
