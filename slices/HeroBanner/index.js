@@ -83,6 +83,7 @@ const HeroBanner = ({ slice }) => (
       .outlined-button {
         border: 2px solid #02fdc2;
         width: 150px;
+        color: #02fdc2;
 
         margin: 0px;
         border-radius: 50px;
