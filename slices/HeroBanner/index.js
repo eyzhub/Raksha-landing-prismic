@@ -9,7 +9,7 @@ const HeroBanner = ({ slice }) => (
       alt={slice.primary.logo.alt}
       style={{ width: "450px", marginLeft: "auto", marginRight: "auto" }}
     />{" "}
-    <div style={{ fontSize: "25px", margin: "0px" }}>
+    <div style={{ fontSize: "25px" }}>
       <PrismicRichText field={slice.primary.title} />
     </div>
     <div
