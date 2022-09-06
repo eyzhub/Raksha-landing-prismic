@@ -3,7 +3,7 @@ import { PrismicRichText } from "@prismicio/react";
 import { PrismicLink } from "@prismicio/react";
 
 const FooterLinks = ({ slice }) => (
-  <section>
+  <section className="footer-section">
     <div
       className="footer-items"
       style={{
@@ -22,9 +22,6 @@ const FooterLinks = ({ slice }) => (
     </div>
     <style jsx>{`
       section {
-        position: fixed;
-        bottom: 0px;
-
         width: 100%;
         margin-top: 4em;
         margin-bottom: 2em;
