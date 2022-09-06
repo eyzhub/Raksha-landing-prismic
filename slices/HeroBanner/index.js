@@ -6,9 +6,10 @@ import _JSXStyle from "styled-jsx/style";
 const HeroBanner = ({ slice }) => (
   <section>
     <img
+      className="hero-logo"
       src={slice.primary.logo.url}
       alt={slice.primary.logo.alt}
-      style={{ width: "450px", marginLeft: "auto", marginRight: "auto" }}
+      style={{ marginLeft: "auto", marginRight: "auto" }}
     />{" "}
     <div style={{ fontSize: "25px" }}>
       <PrismicRichText field={slice.primary.title} />

@@ -50,7 +50,6 @@ function terms({ imprint }) {
           font-size: 30px;
         }
         .body-text {
-          width: 60%;
           margin-left: auto;
           margin-right: auto;
         }
