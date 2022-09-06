@@ -33,6 +33,7 @@ function terms({ imprint }) {
       <style jsx>{`
         section {
           text-align: left;
+          font-size: 20px;
         }
         .header-background {
           height: 35vh;
