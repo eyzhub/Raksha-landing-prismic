@@ -13,19 +13,19 @@
         },
         "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
+        "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613"
       },
       "title": [
         {
           "type": "paragraph",
-          "text": "Sit ex id magna veniam fugiat. Do excepteur quis nostrud ea reprehenderit id mollit amet ad consequat cupidatat aliqua est aliqua nisi. Laboris sunt in mollit.",
+          "text": "Elit quis consectetur Lorem labore nostrud qui ex qui cupidatat ad non est reprehenderit duis. Adipisicing ea occaecat deserunt esse amet non labore. Anim laborum non anim ut culpa tempor duis adipisicing pariatur exercitation adipisicing eiusmod Lorem est.",
           "spans": []
         }
       ],
       "subtitle": [
         {
           "type": "paragraph",
-          "text": "Voluptate non sunt anim Lorem labore deserunt minim et.",
+          "text": "Ad dolore sint commodo et quis esse cupidatat minim occaecat non ea ex ex enim. Eiusmod dolore non culpa fugiat est laborum enim ipsum fugiat non. Cillum anim magna deserunt ut ea mollit.",
           "spans": []
         }
       ],
@@ -36,7 +36,18 @@
         },
         "alt": null,
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab"
+        "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+      },
+      "button_label": [
+        {
+          "type": "paragraph",
+          "text": "Eu voluptate velit quis Lorem laborum.",
+          "spans": []
+        }
+      ],
+      "button_link": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
       }
     },
     "slice_type": "hero_banner"
