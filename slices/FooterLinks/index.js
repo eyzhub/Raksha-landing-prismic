@@ -5,12 +5,11 @@ import { PrismicLink } from "@prismicio/react";
 const FooterLinks = ({ slice }) => (
   <section>
     <div
+      className="footer-items"
       style={{
-        width: "50%",
         display: "flex",
         marginRight: "auto",
         marginLeft: "auto",
-        justifyContent: "space-evenly",
       }}
     >
       {slice?.items?.map((item, i) => (
