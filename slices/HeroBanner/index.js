@@ -32,7 +32,7 @@ const HeroBanner = ({ slice }) => (
       <PrismicLink
         field={slice.primary.button_link}
         style={{
-          width: "120px",
+          width: "max-content",
         }}
       >
         <div
