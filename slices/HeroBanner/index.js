@@ -94,7 +94,6 @@ const HeroBanner = ({ slice }) => (
         border-radius: 50px;
       }
     `}</style>
-    {console.log(slice)}
   </section>
 );
 

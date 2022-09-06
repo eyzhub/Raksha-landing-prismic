@@ -9,7 +9,6 @@ import { Layout } from "../components/Layout";
 
 function terms({ imprint }) {
   const slice = imprint.data.slices[0];
-  console.log(slice);
   return (
     <section>
       <div className="body-text">
