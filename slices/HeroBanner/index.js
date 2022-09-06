@@ -87,6 +87,7 @@ const HeroBanner = ({ slice }) => (
         color: black;
         width: 150px;
         border-radius: 50px;
+        cursor: pointer;
       }
     `}</style>
   </section>
