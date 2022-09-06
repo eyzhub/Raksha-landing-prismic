@@ -6,6 +6,7 @@ import * as prismicH from "@prismicio/helpers";
 import { PrismicRichText } from "@prismicio/react";
 import { components } from "../slices/";
 import { Layout } from "../components/Layout";
+import _JSXStyle from "styled-jsx/style";
 
 function terms({ terms }) {
   const slice = terms.data.slices[0];

@@ -1,6 +1,7 @@
 import React from "react";
 import { PrismicRichText } from "@prismicio/react";
 import { PrismicLink } from "@prismicio/react";
+import _JSXStyle from "styled-jsx/style";
 
 const HeroBanner = ({ slice }) => (
   <section>
