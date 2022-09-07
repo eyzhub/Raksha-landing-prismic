@@ -7,23 +7,11 @@ import { PrismicRichText } from "@prismicio/react";
 import { components } from "../slices/";
 import { Layout } from "../components/Layout";
 
-function terms({ policy }) {
+function policy({ policy }) {
   const slice = policy.data.slices[0];
   console.log(slice);
   return (
     <section>
-      <div className="navigation-header">
-        {slice?.items?.map(
-          (
-            item,
-            i /* import { PrismicRichText } from '@prismicio/react' */
-          ) => (
-            <div key={`${i + item.subtitle}`} className="header">
-              <PrismicRichText field={item.subtitle} />
-            </div>
-          )
-        )}
-      </div>
       <div className="body-text">
         <PrismicRichText field={slice.primary.title} />
         <PrismicRichText field={slice.primary.description} />
@@ -47,6 +35,8 @@ function terms({ policy }) {
           display: flex;
         }
         .body-text {
+          padding-left: 25px;
+          margin-top: 0px;
           width: 80%;
         }
         .title {
@@ -64,7 +54,7 @@ function terms({ policy }) {
   );
 }
 
-export default terms;
+export default policy;
 export async function getStaticProps({ locale }) {
   const client = createClient();
   const policy = await client.getByUID("policy", "policy", { lang: locale });

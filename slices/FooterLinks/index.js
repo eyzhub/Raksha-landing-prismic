@@ -13,7 +13,13 @@ const FooterLinks = ({ slice }) => (
       }}
     >
       {slice?.items?.map((item, i) => (
-        <div key={i + item.footer_item_title} style={{ color: "#d5d5d5" }}>
+        <div
+          className="footer-item"
+          key={i + item.footer_item_title}
+          style={{
+            color: "#d5d5d5",
+          }}
+        >
           <PrismicLink field={item.footer_item_link}>
             <PrismicRichText field={item.footer_item_title} />
           </PrismicLink>

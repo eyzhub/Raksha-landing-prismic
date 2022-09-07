@@ -13,18 +13,6 @@ function terms({ terms }) {
   console.log(slice);
   return (
     <section>
-      <div className="navigation-header">
-        {slice?.items?.map(
-          (
-            item,
-            i /* import { PrismicRichText } from '@prismicio/react' */
-          ) => (
-            <div key={`${i + item.subtitle}`} className="header">
-              <PrismicRichText field={item.subtitle} />
-            </div>
-          )
-        )}
-      </div>
       <div className="body-text">
         <PrismicRichText field={slice.primary.title} />
         <PrismicRichText field={slice.primary.description} />
@@ -48,6 +36,7 @@ function terms({ terms }) {
           display: flex;
         }
         .body-text {
+          padding-left: 25px;
           width: 80%;
         }
         .title {
