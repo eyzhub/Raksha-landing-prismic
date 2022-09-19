@@ -53,6 +53,7 @@ function terms({ imprint }) {
         .body-text {
           margin-left: auto;
           margin-right: auto;
+          line-height: 1.2;
         }
         .title {
           color: #8592e0;

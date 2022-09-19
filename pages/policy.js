@@ -38,6 +38,7 @@ function policy({ policy }) {
           padding-left: 25px;
           margin-top: 0px;
           width: 80%;
+          line-height: 1.2;
         }
         .title {
           color: #8592e0;

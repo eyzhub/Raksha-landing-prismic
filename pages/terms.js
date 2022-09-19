@@ -21,7 +21,7 @@ function terms({ terms }) {
             item,
             i /* import { PrismicRichText } from '@prismicio/react' */
           ) => (
-            <div key={`${i + item.subtitle}`}>
+            <div key={`${i + item.subtitle}`} className="text-wrapper">
               <PrismicRichText field={item.subtitle} />
               <PrismicRichText field={item.text} />
             </div>
@@ -38,16 +38,9 @@ function terms({ terms }) {
         .body-text {
           padding-left: 25px;
           width: 80%;
+          line-height: 1.2;
         }
-        .title {
-          color: #8592e0;
-        }
-        .navigation-header {
-          width: 17%;
-          padding-right: 25px;
-        }
-        .header {
-          border-bottom: 2px solid black;
+        .text-wrapper {
         }
       `}</style>
     </section>
